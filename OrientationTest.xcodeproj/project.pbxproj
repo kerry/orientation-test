@@ -12,6 +12,9 @@
 		0D982F911E682C8100189809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D982F8F1E682C8100189809 /* Main.storyboard */; };
 		0D982F931E682C8100189809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D982F921E682C8100189809 /* Assets.xcassets */; };
 		0D982F961E682C8100189809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D982F941E682C8100189809 /* LaunchScreen.storyboard */; };
+		0D982F9E1E682D3800189809 /* PushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D982F9D1E682D3800189809 /* PushedViewController.swift */; };
+		0D982FA01E682D4400189809 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D982F9F1E682D4400189809 /* PresentViewController.swift */; };
+		0D982FA21E68352500189809 /* LandscapeOnlyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D982FA11E68352500189809 /* LandscapeOnlyNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0D982F921E682C8100189809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D982F951E682C8100189809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D982F971E682C8100189809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D982F9D1E682D3800189809 /* PushedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushedViewController.swift; sourceTree = "<group>"; };
+		0D982F9F1E682D4400189809 /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		0D982FA11E68352500189809 /* LandscapeOnlyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeOnlyNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				0D982F921E682C8100189809 /* Assets.xcassets */,
 				0D982F941E682C8100189809 /* LaunchScreen.storyboard */,
 				0D982F971E682C8100189809 /* Info.plist */,
+				0D982F9D1E682D3800189809 /* PushedViewController.swift */,
+				0D982F9F1E682D4400189809 /* PresentViewController.swift */,
+				0D982FA11E68352500189809 /* LandscapeOnlyNavigationController.swift */,
 			);
 			path = OrientationTest;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D982FA21E68352500189809 /* LandscapeOnlyNavigationController.swift in Sources */,
+				0D982F9E1E682D3800189809 /* PushedViewController.swift in Sources */,
 				0D982F8E1E682C8100189809 /* ViewController.swift in Sources */,
+				0D982FA01E682D4400189809 /* PresentViewController.swift in Sources */,
 				0D982F8C1E682C8100189809 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
